@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="thermometer.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cvrt-form">
+            <h1>Temperature Converter</h1>
+            <div class="group">
+                <div class="input-group">
+                    <label for="cel">Celsius (&deg;C)</label>
+                    <input type="number" name="cel" id="cel" placeholder="0" onkeyup="convertToFK()">
+                </div>
+                <div class="input-group">
+                    <label for="faren">Fahrenheit (&deg;F)</label>
+                    <input type="number" name="faren" id="faren" placeholder="0" onkeyup="convertToCK()">
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="kel">Kelvin (&deg;K)</label>
+                <input type="number" name="kel" id="kel" placeholder="0" onkeyup="convertToCF()">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
